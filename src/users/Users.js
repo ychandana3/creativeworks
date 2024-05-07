@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import UserModal from './UserModal';
+import Badge from './Badge';
 const Users = () => {
     const DUMMY_USERS = [
         {
@@ -59,7 +60,7 @@ const Users = () => {
               <td className="px-6 py-4 whitespace-nowrap">{user.name}</td>
               <td className="px-6 py-4 whitespace-nowrap">{user.joinDate}</td>
               <td className="px-6 py-4 whitespace-nowrap">{user.earnings}</td>
-              <td className="px-6 py-4 whitespace-nowrap">{user.status}</td>
+              <td className="px-6 py-4 whitespace-nowrap">{user.status === 'Active'?<Badge active={'active'}/>:<Badge active={'Inactive'}/>}</td>
               <td className="px-6 py-4 whitespace-nowrap">{user.details}</td>
             </tr>
           ))}
