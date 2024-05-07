@@ -27,7 +27,7 @@ const PricingPlan = ({ features, plan, cost, isSelected, onSelectPlan }) => {
         </ul>
         <div className='absolute bottom-8 w-full text-center'>       
         <h2 className="text-xl font-bold mb-4 lg:mt-16">{cost}</h2>
-        <button className="px-4 py-2 border border-blue-500 text-blue-500 bg-white rounded-lg hover:text-white hover:bg-blue-500 focus:outline-none transition-all duration-300">
+        <button className={`px-6 py-2 ${isSelected? 'text-white border-blue-500 bg-blue-500 rounded':'border border-blue-500 text-blue-500 bg-white rounded-lg hover:text-white hover:bg-blue-500 focus:outline-none transition-all duration-300'}`}>
           Select
         </button>
         </div>

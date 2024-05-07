@@ -5,7 +5,7 @@ const PricingPlans = () => {
 
   const pricingPlans = [
     { features:['Free users','Works on 1 Device at once'], plan: "free", cost: "free" },
-    { plan: 'Standard', cost: '$20', features: ['Feature 1', 'Feature 2', 'Feature 3'] },
+    { plan: 'Standard', cost: '$20', features: ['Limited People', 'Works on 4 devices at once', 'Connect anywhere'] },
     { plan: 'Premium', cost: '$30', features: ['Feature 1', 'Feature 2', 'Feature 3'] }
   ];
 
@@ -14,7 +14,7 @@ const PricingPlans = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row justify-between">
+    <div className="mx-16 flex flex-col md:flex-row justify-around">
       {pricingPlans.map((pricingPlan, index) => (
         <PricingPlan
           key={index}

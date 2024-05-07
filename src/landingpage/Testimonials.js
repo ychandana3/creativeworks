@@ -24,7 +24,7 @@ const Testimonials = () => {
     {
         id: 3,
         avatar: "https://via.placeholder.com/150",
-        name: "John Doe",
+        name: "Manasa",
         country: "U",
         comment:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -32,7 +32,7 @@ const Testimonials = () => {
       {
         id: 4,
         avatar: "https://via.placeholder.com/150",
-        name: "Jane Smith",
+        name: "Samhitha",
         country: "C",
         comment:
           "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -40,7 +40,7 @@ const Testimonials = () => {
       {
         id: 5,
         avatar: "https://via.placeholder.com/150",
-        name: "John Doe",
+        name: "Sanjana",
         country: "t",
         comment:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -48,7 +48,7 @@ const Testimonials = () => {
       {
         id: 6,
         avatar: "https://via.placeholder.com/150",
-        name: "Jane Smith",
+        name: "Sweety",
         country: "a",
         comment:
           "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -77,7 +77,7 @@ const Testimonials = () => {
           />
         ))}
       </div>
-      <div className="flex justify-end mt-4 mr-80">
+      <div className="flex justify-end mt-4 mr-16">
         <button
           className="w-10 h-10 rounded-full flex items-center justify-center border-2 border-blue-700 hover:bg-blue-700 focus:outline-none"
           onClick={handlePrev}

@@ -1,6 +1,8 @@
 import React from 'react'
 import DoughnutReport from './DoughnutReport'
 import UserEarnings from './UserEarnings'
+import JoinedUsers from './JoinedUsers'
+
 const Reports = () => {
   return (
     <div className="flex flex-col justify-center overflow-x-auto m-16">
@@ -13,17 +15,18 @@ const Reports = () => {
         + Add User
         </button>
       </div>
-      <div className='flex justify-between'>
-        <div className='w-1/3'>
-            <DoughnutReport /> 
-        </div>
-        <div className='w-1/3'>
+      <div className='flex '>
+    <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-4 sm:mb-0 md:mr-4'>
+        <DoughnutReport /> 
+    </div>
+    <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-4 sm:mb-0 md:mr-4'>
         <UserEarnings/>
-        </div>
-        <div className='w-1/3'></div>
-         
-        
-      </div>
+    </div>
+    <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3'>
+        <JoinedUsers/>
+    </div>
+</div>
+
     </div>
   )
 }

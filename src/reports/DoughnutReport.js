@@ -19,7 +19,7 @@ const DoughnutReport = () => {
   };
 
   return (
-    <div className="bg-white rounded-lg flex flex-col shadow-md p-6 mb-4">
+    <div className="border border-slate-300 rounded bg-white rounded-lg flex flex-col shadow-md p-6 mb-4">
         <h2 className="text-4xl font-bold mb-4">User Status</h2>
         <div className='flex'>         
             {doughnutData.chartData && (

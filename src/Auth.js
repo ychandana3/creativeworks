@@ -27,10 +27,7 @@ const Auth = ({loginHandler}) => {
           Sign In
         </button>
         </Link>
-        <p className="mt-4">
-          Don't have an account?{' '}
-          <span className="text-blue-500 cursor-pointer">Sign up here</span>
-        </p>
+        
       </div>
     </div>
   );

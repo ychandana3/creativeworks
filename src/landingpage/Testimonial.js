@@ -6,7 +6,7 @@ const Testimonial = ({ avatar, name, country, comment, rating = 4.5 }) => {
       <div className="flex items-center justify-between">
         <div className="flex">
           <img
-            src={avatar}
+            src={process.env.PUBLIC_URL + '/avatar.png'}
             alt={name}
             className="w-16 h-16 rounded-full mr-4"
           />

@@ -50,7 +50,7 @@ const Navbar = () => {
         <li>
           <img
             className="h-8 w-8 rounded-full"
-            src="avatar.jpg"
+            src={process.env.PUBLIC_URL + '/avatar.png'}
             alt="User Avatar"
           />
         </li>
