@@ -8,38 +8,35 @@ const LandingPageHeader = () => {
         <img
           src={process.env.PUBLIC_URL + "/Logo.png"}
           alt="My Image"
-          className=""
+          className="custom-link"
         />
-        <Link to="/" className="p-2 text-2xl font-bold text-black custom-link">
+        <Link to="/" className="p-2 text-2xl font-bold text-black">
           CreativeWorks
         </Link>
       </div>
       <ul className="flex">
-        <li className="ml-6">
-          <Link to="/pricing" className="p-6 text-xl text-gray-500 custom-link">
+        <li className="ml-6 custom-link">
+          <Link to="/pricing" className="p-6 text-xl text-gray-500 ">
             Pricing
           </Link>
         </li>
-        <li className="ml-6">
-          <Link
-            to="/testimonials"
-            className="p-6 text-xl text-gray-500 custom-link"
-          >
+        <li className="ml-6 custom-link">
+          <Link to="/testimonials" className="p-6 text-xl text-gray-500 ">
             Testimonials
           </Link>
         </li>
-        <li className="ml-6">
+        <li className="ml-6 custom-link">
           <Link
             to="/signin"
-            className="p-6 font-bold text-xl text-black px-4 py-2 custom-link"
+            className="p-6 font-bold text-xl text-black px-4 py-2"
           >
             Sign In
           </Link>
         </li>
-        <li className="ml-6">
+        <li className="ml-6 custom-link">
           <Link
             to="/signup"
-            className="p-6 font-bold text-xl text-blue-500 border-2 border-blue-500 hover:text-white hover:transition hover:bg-blue-500 hover:ring-2 rounded-full px-4 py-2 custom-link"
+            className="p-6 font-bold text-xl text-blue-500 border-2 border-blue-500 hover:text-white hover:transition hover:bg-blue-500 hover:ring-2 rounded-full px-4 py-2 "
           >
             Sign Up
           </Link>

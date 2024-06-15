@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .custom-link {
-  @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110;
+  @apply transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110;
 }
