@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+import { HashLink as Link } from "react-router-hash-link";
 const LandingPageHeader = () => {
   return (
     <div className="flex justify-between items-center my-8">
@@ -16,12 +15,12 @@ const LandingPageHeader = () => {
       </div>
       <ul className="flex">
         <li className="ml-6 custom-link">
-          <Link to="/pricing" className="p-6 text-xl text-gray-500 ">
+          <Link to="#pricing" className="p-6 text-xl text-gray-500 ">
             Pricing
           </Link>
         </li>
         <li className="ml-6 custom-link">
-          <Link to="/testimonials" className="p-6 text-xl text-gray-500 ">
+          <Link to="#testimonials" className="p-6 text-xl text-gray-500 ">
             Testimonials
           </Link>
         </li>
